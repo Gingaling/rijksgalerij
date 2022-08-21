@@ -1,0 +1,10 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#550D43",
+        "titleBar.activeBackground": "#77135E",
+        "titleBar.activeForeground": "#FEFCFE"
+    },
+    "marquee.widgets.npm-stats.packageNames": [
+        "rijksgalerij"
+    ]
+}
