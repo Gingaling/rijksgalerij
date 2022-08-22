@@ -10,6 +10,7 @@ import Navigation from './Navigation';
 import About from './About';
 import Gallery from './Gallery';
 import Search from './Search';
+import './App.css'
 
 function App() {
 	const [searchOptions, setSearchOptions] = useState({
