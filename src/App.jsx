@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
 import data from './data.json';
-import artObjects from './artobjects.json';
+import artObjects from './artObjects.json';
 
 import Container from 'react-bootstrap/Container';
 import CarouselContainer from './CarouselContainer';
 import Navigation from './Navigation';
 import About from './About';
 import Gallery from './Gallery';
+import Search from './Search';
 
 function App() {
 	const [searchOptions, setSearchOptions] = useState({
@@ -21,12 +22,14 @@ function App() {
 			<Navigation />
 			<main>
 				<Routes>
-					<Route path="/about" element={<About />} />
 					<Route path="/home" element={<CarouselContainer data={data} />} />
-					<Route path="*" element={<Navigate to="/home" />} /> 
+					<Route path="/about" element={<About />} />
+					<Route path="/gallery" element={<Gallery images={galleryImages} searchOptions={searchOptions} />} />
+					<Route path="*" element={<Navigate to="/home" />} />
+					<Route path="/search" element={<Search searchOptions={searchOptions} />} />;
 				</Routes>
 			</main>
 		</Container>;
-};
+}
 
 export default App;

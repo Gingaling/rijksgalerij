@@ -1,0 +1,23 @@
+.formGroup {
+    font-family: "Righteous", cursive;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#search-terms {
+    color: black;
+    padding-right: 20px;
+    position: float;
+    text-align: right;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.input1 {
+    width: 400px;
+}

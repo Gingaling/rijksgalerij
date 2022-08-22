@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(210, 145, 145);
+}
+
+#CardStyle {
+    border: 2px solid rgb(251, 221, 221);
+    font-family: "Righteous", cursive;
+}

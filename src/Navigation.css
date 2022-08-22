@@ -1,0 +1,20 @@
+.BarNav {
+	background-color: rgb(246, 208, 162);
+	font-size: 2rem;
+	padding: 1 rem 0 0 0;
+	padding-left: 8px;
+	margin: 1rem 0 10px 0;
+	color: white;
+	font-family: "Righteous", cursive;
+}
+
+.brand {
+	color: rgb(67, 41, 10);
+	font-size: 1.5rem;
+}
+
+
+.Wormy {
+    height: 60px;
+    margin-right: 30px;
+}
